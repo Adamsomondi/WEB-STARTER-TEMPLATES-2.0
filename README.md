@@ -64,3 +64,72 @@ git clone https://github.com/Adamsomondi/WEB-STARTER-TEMPLATES-2.0.git
 cd  WEB-STARTER-TEMPLATES-2.0/react-project
 npm install
 npm run dev
+```
+
+# Angular Project
+<p>A minimal Angular project setup using Node,Angular CLI Version  19 and NPM package manager.Perfect for quick learning,prototyping and can be scaled for any projects and application</p>
+  <pre>
+angular-project/
+├── README.md
+├── angular.json
+├── package.json
+├── tsconfig.json
+├── src/
+│   ├── app/
+│   │   ├── app.component.html
+│   │   ├── app.component.scss
+│   │   ├── app.component.ts
+│   │   ├── app.module.ts
+│   │   └── ...
+│   ├── assets/
+│   ├── environments/
+│   ├── index.html
+│   ├── main.ts
+│   ├── styles.scss
+│   └── ...
+├── e2e/
+└── ...
+  </pre>
+
+  Run   <b>cd ~</b> on linux or <b>cd $HOME</b>  on windows to avoid permission issues.
+ ```sh
+git clone https://github.com/Adamsomondi/WEB-STARTER-TEMPLATES-2.0.git
+cd  WEB-STARTER-TEMPLATES-2.0/angular-project
+npm install
+npm run dev
+```
+
+# Vue Project
+
+<p>A minimal vue project setup using Node and NPM package manager.Perfect for quick learning,prototyping and can be scaled for any projects and application</p>
+  <pre>
+  vue-project/
+├── README.md
+├── node_modules/
+├── public/
+│   ├── favicon.ico
+│   └── index.html
+├── src/
+│   ├── assets/
+│   │   └── logo.png
+│   ├── components/
+│   │   └── HelloWorld.vue
+│   ├── App.vue
+│   ├── main.js
+├── .gitignore
+├── package.json
+├── package-lock.json
+├── babel.config.js
+├── vue.config.js
+└── ...
+  </pre>
+
+   Run   <b>cd ~</b> on linux or <b>cd $HOME</b>  on windows to avoid permission issues.
+ ```sh
+git clone https://github.com/Adamsomondi/WEB-STARTER-TEMPLATES-2.0.git
+cd  WEB-STARTER-TEMPLATES-2.0/vue-project
+npm install
+npm run format
+npm run dev
+```
+  
