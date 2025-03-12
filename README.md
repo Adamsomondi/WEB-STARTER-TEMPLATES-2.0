@@ -91,6 +91,8 @@ angular-project/
 └── ...
   </pre>
 
+   <p><b>Clone this repository</b></p>
+   
   Run   <b>cd ~</b> on linux or <b>cd $HOME</b>  on windows to avoid permission issues.
  ```sh
 git clone https://github.com/Adamsomondi/WEB-STARTER-TEMPLATES-2.0.git
@@ -124,6 +126,8 @@ npm run dev
 └── ...
   </pre>
 
+     <p><b>Clone this repository</b></p>
+     
    Run   <b>cd ~</b> on linux or <b>cd $HOME</b>  on windows to avoid permission issues.
  ```sh
 git clone https://github.com/Adamsomondi/WEB-STARTER-TEMPLATES-2.0.git
@@ -132,4 +136,42 @@ npm install
 npm run format
 npm run dev
 ```
+
+# fastapi project
+
+<p>A minimal fastapi project setup using Node and NPM package manager,Included with fastapi standard tools.Perfect for quick learning,prototyping and can be scaled for any projects and application</p>
+  <pre>
+  fastapi_project/
+├── app/
+│   ├── init.py
+│   ├── main.py
+│   ├── routers/
+│   │   ├── init.py
+│   │   └── items.py
+│   ├── models/
+│   │   ├── init.py
+│   │   └── item.py
+│   ├── schemas/
+│   │   ├── init.py
+│   │   └── item.py
+│   └── db.py
+├── tests/
+│   ├── init.py
+│   └── test_main.py
+├── .gitignore
+├── requirements.txt
+└── README.md
+  </pre>
   
+  <p><b>Clone this repository</b></p>
+  
+   Run   <b>cd ~</b> on linux or <b>cd $HOME</b>  on windows to avoid permission issues before git clone in <b>Anaconda Powershell</b>.
+  
+ ```sh
+git clone https://github.com/Adamsomondi/WEB-STARTER-TEMPLATES-2.0.git
+cd  WEB-STARTER-TEMPLATES-2.0/fastapi-project
+python -m venv my_env
+ .\my_env\Scripts\activate
+pip install -r requirements.txt
+python -m uvicorn app.main:app --reload --port 8080
+```
