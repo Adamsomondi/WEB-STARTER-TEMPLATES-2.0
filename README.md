@@ -98,7 +98,7 @@ angular-project/
 git clone https://github.com/Adamsomondi/WEB-STARTER-TEMPLATES-2.0.git
 cd  WEB-STARTER-TEMPLATES-2.0/angular-project
 npm install
-npm run dev
+ng serve
 ```
 
 # Vue Project
